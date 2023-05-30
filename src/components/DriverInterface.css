@@ -1,0 +1,71 @@
+.driver-interface {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+  }
+  
+  .driver-interface h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .driver-interface .driver-section {
+    margin-bottom: 30px;
+  }
+  
+  .driver-interface h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .driver-interface label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .driver-interface input[type="file"],
+  .driver-interface input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .driver-interface ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .driver-interface li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .driver-interface li:last-child {
+    border-bottom: none;
+  }
+  
+  .driver-interface button {
+    padding: 6px 12px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .driver-interface button:hover {
+    background-color: #23527c;
+  }
+  
